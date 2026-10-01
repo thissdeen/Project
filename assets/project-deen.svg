@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="deenBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020d1a"/>
+      <stop offset="100%" stop-color="#082245"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#deenBg)" />
+
+  <!-- Cyber Grid Pattern -->
+  <line x1="0" y1="90" x2="600" y2="90" stroke="#0e3366" stroke-width="1" stroke-dasharray="4" />
+  <line x1="0" y1="180" x2="600" y2="180" stroke="#0e3366" stroke-width="1" stroke-dasharray="4" />
+  <line x1="0" y1="270" x2="600" y2="270" stroke="#0e3366" stroke-width="1" stroke-dasharray="4" />
+  <line x1="150" y1="0" x2="150" y2="360" stroke="#0e3366" stroke-width="1" stroke-dasharray="4" />
+  <line x1="300" y1="0" x2="300" y2="360" stroke="#0e3366" stroke-width="1" stroke-dasharray="4" />
+  <line x1="450" y1="0" x2="450" y2="360" stroke="#0e3366" stroke-width="1" stroke-dasharray="4" />
+
+  <!-- Shield & Lock Graphic -->
+  <circle cx="300" cy="150" r="70" fill="#0c234a" stroke="#1d68f2" stroke-width="2" />
+  <path d="M300 100 L345 125 V165 C345 200 300 220 300 220 C300 220 255 200 255 165 V125 Z" fill="rgba(29, 104, 242, 0.2)" stroke="#38bdf8" stroke-width="2" />
+  
+  <!-- Lock Core -->
+  <rect x="286" y="152" width="28" height="24" rx="4" fill="#38bdf8" />
+  <path d="M291 152 V142 C291 137 309 137 309 142 V152" stroke="#38bdf8" stroke-width="3" fill="none" />
+  <circle cx="300" cy="162" r="2.5" fill="#0c234a" />
+
+  <text x="300" y="270" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="20" text-anchor="middle" letter-spacing="1">DEEN CYBER TOOLKIT</text>
+  <text x="300" y="295" fill="#60a5fa" font-family="monospace" font-size="12" text-anchor="middle">v2.4 [SECURITY • TELEGRAM OSINT]</text>
+</svg>
